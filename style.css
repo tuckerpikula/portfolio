@@ -43,6 +43,11 @@ a:hover {
 
 
  /* Navbar */
+
+ #period {
+     color: var(--brand);
+ }
+
  .navbar .nav-link {
      font-size: 13px;
      text-transform: uppercase;
