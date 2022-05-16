@@ -48,6 +48,12 @@ a:hover {
      color: var(--cream);
  }
 
+ #navdec {
+     font-size: 13px;
+     text-transform: uppercase;
+     color: var(--cream);
+ }
+
  /* ABOUT */
 #about {
     min-height: 100vh;
