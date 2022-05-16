@@ -75,7 +75,7 @@ a:hover {
  }
 
  #about img {
-     border-radius: 100px;
+     border-radius: 1000px;
      border: 6px solid var(--cream);
  }
 
