@@ -76,8 +76,35 @@ a:hover {
 
  #about img {
      border-radius: 1000px;
-     border: 6px solid var(--cream);
+     border: 8px solid var(--cream);
  }
+
+ .person-img {
+     position: relative;
+     z-index: 2;
+ }
+
+ .ellipse-top {
+     width: 70%;
+     height: 70%;
+     background: linear-gradient(180deg, #4D4A45 0%, #292824 100%);
+     position: absolute;
+     top: -10%;
+     right: 0;
+     border-radius: 1000px;
+     z-index: -1;
+ }
+
+ .ellipse-bottom {
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(180deg, #4D4A45 0%, #292824 100%);
+    position: absolute;
+    top: -5%;
+    left: 0;
+    border-radius: 1000px;
+    z-index: -1;
+}
 
  /* BTN */
  .btn {
