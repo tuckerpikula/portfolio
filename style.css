@@ -47,6 +47,12 @@ a:hover {
  }
 
  /* ABOUT */
+#about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
  #about h1 {
      font-weight: 600;
  }
