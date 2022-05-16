@@ -17,6 +17,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     color: var(--cream);
+    text-transform: uppercase;
 }
 
 a {
@@ -44,6 +45,7 @@ a:hover {
  .navbar .nav-link {
      font-size: 13px;
      text-transform: uppercase;
+     color: var(--cream);
  }
 
  /* ABOUT */
