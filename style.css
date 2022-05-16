@@ -75,14 +75,14 @@ a:hover {
      font-weight: 600;
      letter-spacing: 1px;
      font-size: 14px;
-     color: var(--cream);
+     color: var(--dark1);
      margin-right: 8px;
     text-transform: uppercase;
  }
 
  #about img {
      border-radius: 1000px;
-     border: 8px solid var(--brand);
+     border: 8px solid var(--dark1);
  }
 
  .person-img {
