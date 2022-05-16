@@ -14,10 +14,10 @@ body {
     background-color: var(--dark2);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
     font-weight: 600;
     color: var(--cream);
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 a {
