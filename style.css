@@ -61,6 +61,21 @@ a:hover {
  }
 
  #about img {
-     border-radius: 1000px;
-     border: 10px solid var(--cream);
+     border-radius: 100px;
+     border: 6px solid var(--cream);
+ }
+
+ /* BTN */
+ .btn {
+     padding: 13px 17px;
+ }
+
+ .btn-brand {
+     background-color: var(--cream);
+     border-color: var(--cream);
+ }
+
+ .btn-brand:hove {
+     background-color: transparent;
+     color: var(--cream);
  }
