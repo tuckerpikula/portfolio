@@ -116,7 +116,7 @@ a:hover {
      border-color: var(--cream);
  }
 
- .btn-brand:hove {
+ .btn-brand:hover {
      background-color: transparent;
      color: var(--cream);
  }
