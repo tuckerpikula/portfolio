@@ -6,6 +6,7 @@
     --brand: #717129;
     --cream: #f2ede3;
     --white: #ffffff;
+    --body: #9b968b;
 }
 
 body {
@@ -112,11 +113,11 @@ a:hover {
  }
 
  .btn-brand {
-     background-color: var(--cream);
-     border-color: var(--cream);
+     background-color: var(--brand);
+     border-color: var(--brand);
  }
 
  .btn-brand:hover {
      background-color: transparent;
-     color: var(--cream);
+     color: var(--brand);
  }
