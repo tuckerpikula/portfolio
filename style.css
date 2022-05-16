@@ -10,14 +10,14 @@
 }
 
 body {
-    color: var(--cream);
+    color: var(--dark1);
     font-family: 'rubik', sans-serif;
     background-color: var(--cream);
 }
 
 h2,h3,h4,h5,h6 {
     font-weight: 600;
-    color: var(--cream);
+    color: var(--dark1);
     text-transform: uppercase;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: var(--brand);
+    color: var(--dark1);
 }
 
  img {
@@ -82,7 +82,7 @@ a:hover {
 
  #about img {
      border-radius: 1000px;
-     border: 8px solid var(--dark1);
+     border: 8px solid var(--brand);
  }
 
  .person-img {
