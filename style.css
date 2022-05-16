@@ -51,13 +51,13 @@ a:hover {
  .navbar .nav-link {
      font-size: 13px;
      text-transform: uppercase;
-     color: var(--cream);
+     color: var(--dark1);
  }
 
  #navdec {
      font-size: 13px;
      text-transform: uppercase;
-     color: var(--cream);
+     color: var(--dark1);
  }
 
  /* ABOUT */
