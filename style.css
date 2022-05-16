@@ -100,7 +100,7 @@ a:hover {
     height: 40%;
     background: linear-gradient(180deg, #4D4A45 0%, #292824 100%);
     position: absolute;
-    top: -5%;
+    bottom: -5%;
     left: 0;
     border-radius: 1000px;
     z-index: -1;
