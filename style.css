@@ -57,5 +57,10 @@ a:hover {
      font-size: 14px;
      color: var(--cream);
      margin-right: 8px;
+    text-transform: uppercase;
+ }
 
+ #about img {
+     border-radius: 1000px;
+     border: 10px solid var(--brand);
  }
