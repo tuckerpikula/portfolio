@@ -11,7 +11,7 @@
 body {
     color: var(--cream);
     font-family: 'rubik', sans-serif;
-    background-color: var(--dark1);
+    background-color: var(--dark2);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -37,4 +37,11 @@ a:hover {
  section {
      padding-top: 90px;
      padding-bottom: 90px;
+ }
+
+
+ /* Navbar */
+ .navbar .nav-link {
+     font-size: 13px;
+     text-transform: uppercase;
  }
