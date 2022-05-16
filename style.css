@@ -62,7 +62,7 @@ a:hover {
 
  /* ABOUT */
 #about {
-    min-height: 75vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -93,7 +93,7 @@ a:hover {
  .ellipse-top {
      width: 70%;
      height: 70%;
-     background: linear-gradient(180deg, #f2ede3 0%, #b29784 50%);
+     background: linear-gradient(180deg, #f2ede3 0%, #3D550C 40%);
      position: absolute;
      top: -10%;
      right: 0;
@@ -104,7 +104,7 @@ a:hover {
  .ellipse-bottom {
     width: 40%;
     height: 40%;
-    background: linear-gradient(180deg, #f2ede3 0%, #b29784 100%);
+    background: linear-gradient(180deg, #f2ede3 0%, #3D550C 140%);
     position: absolute;
     bottom: -5%;
     left: 0;
