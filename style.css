@@ -45,3 +45,17 @@ a:hover {
      font-size: 13px;
      text-transform: uppercase;
  }
+
+ /* ABOUT */
+ #about h1 {
+     font-weight: 600;
+ }
+
+ #about .person-is span {
+     font-weight: 600;
+     letter-spacing: 1px;
+     font-size: 14px;
+     color: var(--cream);
+     margin-right: 8px;
+
+ }
