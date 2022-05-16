@@ -44,7 +44,7 @@ a:hover {
  /* Navbar */
  .navbar .nav-link {
      font-size: 13px;
-     /* text-transform: uppercase; */
+     text-transform: uppercase;
      color: var(--cream);
  }
 
