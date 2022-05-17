@@ -104,7 +104,7 @@ a:hover {
  .ellipse-bottom {
     width: 40%;
     height: 40%;
-    background: linear-gradient(180deg, #f2ede3 0%, #b29784 140%);
+    background: linear-gradient(180deg, #f2ede3 0%, #b29784 160%);
     position: absolute;
     bottom: -5%;
     left: 0;
