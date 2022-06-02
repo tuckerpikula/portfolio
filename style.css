@@ -3,7 +3,7 @@
 :root {
     --dark1: #21201E;
     --dark2: #2d2b29;
-    --brand: #3D550C;
+    --brand: #445525;
     --cream: #f2ede3;
     --white: #f7f3ed;
     --body: #9b968b;
@@ -93,7 +93,7 @@ a:hover {
  .ellipse-top {
      width: 70%;
      height: 70%;
-     background: linear-gradient(180deg, #f2ede3 0%, #b29784 40%);
+     background: linear-gradient(180deg, #f2ede3 0%, #dec9a9 50%);
      position: absolute;
      top: -10%;
      right: 0;
@@ -104,7 +104,7 @@ a:hover {
  .ellipse-bottom {
     width: 40%;
     height: 40%;
-    background: linear-gradient(180deg, #f2ede3 0%, #b29784 160%);
+    background: linear-gradient(180deg, #f2ede3 0%, #dec9a9 160%);
     position: absolute;
     bottom: -5%;
     left: 0;
