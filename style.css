@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
+@media (max-width: 767px) {
+    body {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+
 :root {
     --dark1: #21201E;
     --dark2: #2d2b29;
@@ -37,7 +44,7 @@ a:hover {
  }
 
  section {
-     padding-top: 90px;
+     padding-top: 5px;
      padding-bottom: 90px;
  }
 
