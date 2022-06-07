@@ -73,6 +73,7 @@ a:hover {
 
  /* ABOUT */
 #about {
+    padding-top: 5px;
     min-height: 100vh;
     display: flex;
     align-items: center;
