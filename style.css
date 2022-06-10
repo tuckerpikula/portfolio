@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-    color: var(--brand);
+    /* color: var(--brand); */
     text-decoration: underline;
     border-bottom: 2px #445525;
 }
