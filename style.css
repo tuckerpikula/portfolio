@@ -39,10 +39,10 @@ a {
 
 .hoverme:hover {
     /* color: var(--brand); */
+    color: var(--cream);
     text-decoration: line-through;
     /* border-bottom: 2px; */
-    color: var(--cream);
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
  img {
