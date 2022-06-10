@@ -40,7 +40,7 @@ a {
     /* color: var(--brand); */
     text-decoration: underline;
     border-bottom: 2px;
-    color: #445525;
+    color: var(--brand);
 }
 
  img {
