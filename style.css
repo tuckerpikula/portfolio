@@ -37,7 +37,8 @@ a {
 }
 
 a:hover {
-    color: var(--dark1);
+    color: var(--brand);
+    text-decoration: underline;
 }
 
  img {
