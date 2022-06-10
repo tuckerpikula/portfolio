@@ -161,6 +161,7 @@ a {
 
  .backblock {
     background-color: #dec9a9;
+    border-radius: 25px;
     /* height: 500px; */
  }
 
