@@ -39,6 +39,8 @@ a {
 a:hover {
     color: var(--brand);
     text-decoration: underline;
+    border-bottom:#445525;
+    border-bottom: 2px;
 }
 
  img {
