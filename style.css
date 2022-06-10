@@ -40,7 +40,7 @@ a {
 .hoverme:hover {
     /* color: var(--brand); */
     text-decoration: line-through;
-    text-decoration-color: var(--cream);
+    text-decoration-color: var(--brand);
     /* border-bottom: 2px; */
     text-transform: uppercase
 }
