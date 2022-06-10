@@ -5,6 +5,10 @@
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
+
+    a {
+        text-align: center;
+    }
   }
 
 :root {
