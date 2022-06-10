@@ -39,8 +39,8 @@ a {
 
 .hoverme:hover {
     /* color: var(--brand); */
-    color: var(--cream);
     text-decoration: line-through;
+    text-decoration-color: var(--cream);
     /* border-bottom: 2px; */
     text-transform: uppercase
 }
