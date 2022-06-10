@@ -41,7 +41,7 @@ a {
     /* color: var(--brand); */
     text-decoration: line-through;
     border-bottom: 2px;
-    color: var(--brand);
+    color: var(--cream);
     text-transform: uppercase;
 }
 
