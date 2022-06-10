@@ -162,4 +162,5 @@ a {
  .backblock {
     background-color: #dec9a9;
     height: 500px;
+    width: max-content;
  }
