@@ -64,7 +64,7 @@ a {
      background-color: #dec9a9;
  }
 
- .navbar .nav-link {
+ /* .navbar .nav-link {
      font-size: 13px;
      text-transform: uppercase;
      color: var(--dark1);
@@ -74,7 +74,7 @@ a {
      font-size: 13px;
      text-transform: uppercase;
      color: var(--dark1);
- }
+ } */
 
  /* ABOUT */
 #about {
