@@ -36,7 +36,7 @@ a {
     font-weight: 500;
 }
 
-a:hover {
+#hoverme:hover {
     /* color: var(--brand); */
     text-decoration: underline;
     border-bottom: 2px;
