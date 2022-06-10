@@ -41,6 +41,7 @@ a {
     text-decoration: underline;
     border-bottom: 2px;
     color: var(--brand);
+    text-transform: uppercase;
 }
 
  img {
