@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,245 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
 
+    <!-- Wrapper for the whole site -->
     <div class="wrapper">
+
+        <!-- Navbar -->
+        <header>
+
+            <div class="logo">
+                <a href="#">Tucker Pikula</a>
+            </div>
+
+            <nav class="hide-tablet">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger hide-desktop">
+                <a href="#">
+                    <img src="assets/hamburger.svg" alt="menu">
+                </a>
+            </div>
+
+        </header>
+
+        <!-- Three stripes -->
+        <div class="stripes hide-mobile">
+            <img src="assets/stripes.svg" alt="watermark">
+        </div>
+
+
+        <!-- Hero section -->
+        <section class="hero">
+
+            <div class="leftCol">
+                <div class="title">
+                    <h1>UX Designer</h1>
+                    <div class="subTitle">
+                        <p>Discover</p>
+                        <img src="assets/dot.svg" alt="dot">
+                        <p>Design</p>
+                        <img src="assets/dot.svg" alt="dot">
+                        <p>Deliver</p>
+                        <img src="assets/dot.svg" alt="dot">
+                    </div>
+                    <div class="mainBtn">
+                        <a href="#">About Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightCol">
+                <img src="assets/cube.jpg" alt="image">
+            </div>
+
+        </section>
+
         
+        <!-- Middle section below hero -->
+        <section class="middle">
+            <p>Committed to understanding user needs and delivering user-centric solutions that drive measurable impact
+            </p>
+        </section>
+
+        
+        <!-- Case study header -->
+        <aside class="caseStudies">
+            <p>UX Case Studies</p>
+        </aside>
+
+        
+        <!-- Case study cards -->
+        <section class="uxCards">
+            <div class="oregonCard">
+                <a href="#" class="oregon">
+                    <div class="cardHeader">
+                        <img src="assets/oregon.svg" alt="oregon">
+                    </div>
+                    <div class="cardText">
+                        <p>Redefining the way Oregon Citizens utilize the Unemployment Department</p>
+                        <img src="assets/cardLine.svg" alt="watermark">
+                        <p>Goal: Design a new end-to-end experience for the unemployment section of the Oregon.gov
+                            website</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="inreachCard">
+                <a href="#" class="inreach">
+                    <div class="cardHeader">
+                        <img src="assets/inreach.svg" alt="inreach">
+                    </div>
+                    <div class="cardText">
+                        <p>Providing resources to individuals who lack reliable access to food</p>
+                        <img src="assets/cardLine.svg" alt="watermark">
+                        <p>Goal: Design a mobile app to help users facing food insecurity find free or low-cost food
+                            resources nearby</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="eurekaCard">
+                <a href="#" class="eureka">
+                    <div class="cardHeader">
+                        <img src="assets/oregon.svg" alt="oregon">
+                    </div>
+                    <div class="cardText">
+                        <p>Leading a complete redesign and deployment of a long-established bearing distribution company
+                            with a global reach spanning 70 years</p>
+                        <p>Coming soon...</p>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Coding header -->
+        <aside class="codingProjects">
+            <p>Coding Projects</p>
+        </aside>
+
+        
+        <!-- Codind cards -->
+        <section class="codingCards">
+
+            <div class="portfolioCard">
+                <div class="codingheader">
+                    <p>portfolio</p>
+                </div>
+                <div class="codingBody">
+                    <p>
+                        Responsive website using html, scss, three.js to render the 3D object, and a javascript library
+                        called GSAP
+                    </p>
+                    <a href="#">
+                        <div class="sourceCode">
+                            <img src="assets/chevron.svg" alt="chevron">
+                            <p>Source Code</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="designalyticsCard">
+                <div class="codingheader">
+                    <img src="assets/design.svg" alt="#">
+                </div>
+
+                <div class="codingBody">
+                    
+                    <p>
+                        Fully responsive site using html, scss, and javascript using a design from figma
+                    </p>
+
+                    <div class="bottomRow">
+                        <div class="website">
+                            <a href="#">
+                                <img src="assets/website.svg" alt="website">
+                                <p>Website</p>
+                            </a>
+                        </div>
+
+                        <div class="sourceCode">
+                            <a href="#">
+                                <img src="assets/chevron.svg" alt="chevron">
+                                <p>Source Code</p>
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+            <div class="recallCard">
+                <div class="codingheader">
+                    <img src="assets/recall.svg" alt="#">
+                </div>
+
+                <div class="codingBody">
+                    
+                    <p>
+                        Fully responsive site using html and css using a design from figma                    
+                    </p>
+
+                    <div class="bottomRow">
+                        <div class="website">
+                            <a href="#">
+                                <img src="assets/website.svg" alt="website">
+                                <p>Website</p>
+                            </a>
+                        </div>
+
+                        <div class="sourceCode">
+                            <a href="#">
+                                <img src="assets/chevron.svg" alt="chevron">
+                                <p>Source Code</p>
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="footer">
+                <img src="assets/copyright.svg" alt="copyright">
+                <p>Tucker Pikula</p>
+            </div>
+
+            <nav class="hide-mobile">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </nav>
+            
+
+        </footer>
 
     </div>
-    
+
     <script type="module" src="app.js"></script>
 </body>
+
 </html>

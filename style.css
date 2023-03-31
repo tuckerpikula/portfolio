@@ -7,6 +7,20 @@ html {
     font-size: 62.5%
 }
 
+.hide-mobile {
+    display: none;
+}
+
+.hide-tablet {
+    display: none;
+}
+
+@media only screen and (min-width: 1100px) {
+    .hide-desktop {
+        display: none;
+    }
+}
+
 body {
     margin: 0;
     background-color: var(--secondary-color);
@@ -22,6 +36,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--primary-color);
 }
 
 h1 {
