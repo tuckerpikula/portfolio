@@ -47,7 +47,45 @@ h1 {
     margin: 2.5em;
 }
 
-/* N nav */
+/* Mobile nav */
+.asideMenu {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: var(--primary-color);
+    width: 40%;
+    padding: 3em;
+    text-align: right;
+    transition: transform .6s;
+    transform: translateX(100%);
+}
+
+.asideMenu a {
+    color: var(--secondary-color);
+    font-size: 2.6rem;
+}
+
+.asideMenu img {
+    cursor: pointer;
+    background: var(--secondary-color);
+    border-radius: .5em;
+}
+
+.asideMenu ul {
+    margin-top: 6em;
+}
+
+.asideMenu li {
+    margin-bottom: 1.5em;
+}
+
+.toggle-menu {
+    transform: translateX(0);
+}
+
+/* Nav */
 
 header {
     display: flex;
@@ -274,7 +312,7 @@ section.uxCards {
 
 .sourceCode a {
     display: flex;
-    gap: .2em;
+    gap: .1em;
 }
 
 .designTitle {
@@ -301,7 +339,6 @@ section.finalConnect {
 
 .big {
     font-size: 1.6rem;
-
     letter-spacing: .02em;
 }
 
@@ -452,6 +489,35 @@ footer {
     }
 
     /* Nav */
+    .col2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .asideMenu ul {
+        margin: 0;
+    }
+
+    .asideMenu {
+        position: inherit;
+        height: auto;
+        background: unset;
+        width: auto;
+        transform: unset;
+        transition: none;
+        padding: 0;
+    }
+
+    .asideMenu a {
+        color: var(--primary-color);
+        font-size: 1.7rem;
+    }
+
+    .asideMenu img {
+        display: none;
+    }
+
     nav.hide-tablet {
         display: block;
         font-size: 1.7rem;
