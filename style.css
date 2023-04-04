@@ -72,6 +72,10 @@ p {
     /* text-align: center; */
 }
 
+.designer {
+    text-align: center;
+}
+
 .leftCol h1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 6rem;
@@ -351,6 +355,7 @@ footer {
     .mainBtn {
         display: inline-block;
         text-align: start;
+        transform: translateX(7px);
     }
 
     .rightCol {
