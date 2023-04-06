@@ -26,41 +26,27 @@
 
             <!-- Mobile/Tablet Menu -->
             <div class="col2">
-                <aside class="asideMenu">
-                    <img src="assets/exit.svg" alt="Exit mobile nav" class="exit">
-                    <nav class="hide-desktop">
+                <aside>
+                    <img src="assets/exit.svg" alt="Exit" class="exit">
+                    <nav>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
                                 <a href="#">Resume</a>
+                            </li>
+                            <li>
+                                <a href="#">LinkedIn</a>
                             </li>
                             <li>
                                 <a href="#">Email</a>
                             </li>
                             <li>
-                                <a href="#">LinkedIn</a>
+                                <a href="#">About</a>
                             </li>
                         </ul>
                     </nav>
                 </aside>
-            
-            <!-- Desktop Menu -->
-            <nav class="hide-tablet">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                </ul>
-            </nav>
 
-            <div class="hamburger hide-desktop">
+            <div class="hamburger hide-tablet">
                 <a href="#">
                     <img src="assets/hamburger.svg" alt="menu">
                 </a>
@@ -79,14 +65,17 @@
 
             <div class="leftCol">
                 <div class="title">
-                    <h1 class="designer">UX Designer</h1>
-                    <div class="subTitle">
+                    <div class="discover">
                         <p>Discover</p>
                         <img src="assets/dot.svg" alt="dot">
                         <p>Design</p>
                         <img src="assets/dot.svg" alt="dot">
                         <p>Deliver</p>
                     </div>
+                    <h1 class="designer">UX Designer</h1>
+                        <p class="subTitle">Committed to understanding user needs and delivering user-centric solutions that drive measurable
+                            impact
+                        </p>
                     <div class="mainBtn">
                         <a href="#">About Me</a>
                     </div>
@@ -100,57 +89,40 @@
         </section>
 
 
-        <!-- Middle section below hero -->
-        <div class="middleContainer">
-            <section class="middle">
-                <p>Committed to understanding user needs and delivering user-centric solutions that drive measurable
-                    impact
-                </p>
-            </section>
-        </div>
-
-
         <!-- Case study header -->
-        <aside class="caseStudies">
+        <section class="caseStudies">
             <p>UX Case Studies</p>
-        </aside>
+        </section>
 
-
+        <hr>
+        
         <!-- Case study cards -->
         <section class="uxCards">
 
             
-            <div class="card topCard ipadCardMargin">
+            <div class="card">
                 <a href="https://www.figma.com/file/UhBIgrQbmFAxRC1i8mC4fy/Oregon-Case-Study?node-id=0%3A1&t=KUpnbIxSroufBP0u-1" class="oregon">
                     <div class="cardHeader">
                         <img src="assets/oregon.svg" alt="oregon">
                     </div>
                     <div class="cardText">
                         <p>Redefining the way Oregon Citizens utilize the Unemployment Department</p>
-                        <p class="line">_____</p>
-                        <p><strong>Goal:</strong> Design a new end-to-end experience for the unemployment section of the
-                            Oregon.gov
-                            website</p>
                     </div>
                 </a>
             </div>
 
-            <div class="card ipadCardMargin">
+            <div class="card">
                 <a href="https://www.figma.com/file/8Rh5fCIKxhydQ9oPC3A55Z/inreach-Case-Study?node-id=0%3A1&t=lw3Q5HQ9pcUGoBpt-1" class="inreach">
                     <div class="cardHeader">
-                        <img  class="inreach" src="assets/inreach.svg" alt="inreach">
+                        <img src="assets/inreach.svg" alt="inreach">
                     </div>
                     <div class="cardText">
                         <p>Providing resources to individuals who lack reliable access to food</p>
-                        <p class="line">_____</p>
-                        <p><strong>Goal:</strong> Design a mobile app to help users facing food insecurity find free or
-                            low-cost food
-                            resources nearby</p>
                     </div>
                 </a>
             </div>
 
-            <div class="card botCard">
+            <div class="card eurekaCard">
                 <a href="#">
                     <div class="cardHeader">
                         <p class="eureka">Eureka Bearing</p>
@@ -158,34 +130,33 @@
                     <div class="cardText">
                         <p>Leading a complete redesign and deployment of a long-established bearing distribution company
                             with a global reach spanning 70 years</p>
-                        <p class="line"></p>
-                        <p class="coming"><strong>Coming soon...</strong></p>
                     </div>
                 </a>
             </div>
 
         </section>
-
+        
+        <hr>
 
         <!-- Coding header -->
-        <aside class="codingProjects">
+        <section class="codingHeader">
             <p>Coding Projects</p>
-        </aside>
+        </section>
 
 
         <!-- Codind cards -->
-        <section class="topCard codingCards">
+        <section class="codingCards">
 
             <div class="codeCards portfolioCard">
                 <div class="codingheader">
-                    <p class="portfolioTitle">portfolio</p>
+                    <p class="cardTitle">portfolio</p>
                 </div>
                 <div class="codingBody"> 
-                    <p class="codeDescription">
+                    <p>
                         Responsive website using html, css, javascript, three.js to render the 3D object, all hosted on AWS
                     </p>
-                    <a href="https://github.com/tuckerpikula/portfolio">
-                        <div class="sourceCode">
+                    <div class="sourceCode">
+                        <a href="https://github.com/tuckerpikula/portfolio">
                             <img src="assets/chevron.svg" alt="chevron">
                             <p>Source Code</p>
                         </div>
@@ -195,14 +166,14 @@
 
             <div class=" codeCards designalyticsCard">
                 <div class="codingheader">
-                    <p class="portfolioTitle designTitle">designalytics</p>
+                    <p class="cardTitle">designalytics</p>
                 </div>
 
                 <div class="codingBody">
-                    <p class="codeDescription">
+                    <p>
                         Fully responsive site using html, scss, and javascript using a design from figma
                     </p>
-                    <div class="bottomRow">
+                    
                         <div class="website">
                             <a href="https://tuckerpikula.github.io/Designalytics/">
                                 <img src="assets/website.svg" alt="website">
@@ -216,7 +187,7 @@
                                 <p>Source Code</p>
                             </a>
                         </div>
-                    </div>
+                    
 
                 </div>
 
@@ -224,11 +195,11 @@
 
             <div class="codeCards recallCard">
                 <div class="codingheader">
-                    <p class="portfolioTitle recallTitle">recall</p>
+                    <p class="cardTitle">recall</p>
                 </div>
 
                 <div class="codingBody">
-                    <p class="codeDescription">
+                    <p>
                         Fully responsive site using html and css using a design from figma
                     </p>
                     <div class="bottomRow">
@@ -273,6 +244,8 @@
 
 
         <!-- Footer -->
+        <hr>
+
         <footer>
 
             <div class="footer">

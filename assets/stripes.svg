@@ -1,17 +1,17 @@
-<svg width="247" height="50" viewBox="0 0 247 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="247" height="10" fill="url(#paint0_linear_174_138)"/>
-<rect y="20" width="191" height="10" fill="url(#paint1_linear_174_138)"/>
-<rect x="1" y="40" width="132" height="10" fill="url(#paint2_linear_174_138)"/>
+<svg width="247" height="29" viewBox="0 0 247 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="247" height="1" fill="url(#paint0_linear_209_399)"/>
+<rect y="14" width="191" height="1" fill="url(#paint1_linear_209_399)"/>
+<rect y="28" width="132" height="1" fill="url(#paint2_linear_209_399)"/>
 <defs>
-<linearGradient id="paint0_linear_174_138" x1="247" y1="5.38428" x2="-5.55673e-10" y2="5.38428" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_209_399" x1="-3" y1="0.500019" x2="247" y2="0.499135" gradientUnits="userSpaceOnUse">
 <stop stop-color="#F3F3F3"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint1_linear_174_138" x1="191" y1="25.3845" x2="-9.62501e-10" y2="25.3845" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_209_399" x1="0" y1="14.5" x2="191" y2="14.5002" gradientUnits="userSpaceOnUse">
 <stop stop-color="#F3F3F3"/>
 <stop offset="1" stop-color="#F3F3F3" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint2_linear_174_138" x1="133" y1="45.3846" x2="1" y2="45.3846" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint2_linear_209_399" x1="1.15746e-06" y1="28.5" x2="132" y2="28.5002" gradientUnits="userSpaceOnUse">
 <stop stop-color="#F3F3F3"/>
 <stop offset="1" stop-color="#F3F3F3" stop-opacity="0"/>
 </linearGradient>

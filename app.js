@@ -1,6 +1,6 @@
 const menuBtn = document.querySelector('.hamburger')
 const exitBtn = document.querySelector('.exit')
-const menu = document.querySelector('.asideMenu')
+const menu = document.querySelector('aside')
 
 menuBtn.addEventListener('click', function(e) {
     e.preventDefault();
