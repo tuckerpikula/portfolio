@@ -160,6 +160,11 @@ h1 {
     justify-content: center;
 }
 
+#canvas {
+    height: 270px;
+    width: 270px;
+}
+
 .rightCol img {
     height: 270px;
 }
@@ -305,35 +310,35 @@ section.finalConnect {
         align-items: center;
     }
 
-   aside {
-    position: inherit;
-    height: auto;
-    background: unset;
-    width: auto;
-    transform: unset;
-    transition: unset;
-    text-align: center;
-    padding: 0;
-   }
+    aside {
+        position: inherit;
+        height: auto;
+        background: unset;
+        width: auto;
+        transform: unset;
+        transition: unset;
+        text-align: center;
+        padding: 0;
+    }
 
-   aside nav ul {
-    display: flex;
-    margin: 0;
-    gap: 2em;
-   }
+    aside nav ul {
+        display: flex;
+        margin: 0;
+        gap: 2em;
+    }
 
-   aside li {
-    margin: 0;
-   }
+    aside li {
+        margin: 0;
+    }
 
-   aside nav ul li a {
-    color: var(--primary-color);
-    font-size: 2rem;
-   }
+    aside nav ul li a {
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
 
-   aside img {
-    display: none;
-   }
+    aside img {
+        display: none;
+    }
 
     .stripes {
         display: block;
@@ -419,18 +424,19 @@ section.finalConnect {
         /* Center the card horizontally using margin */
         margin: 0 auto;
     }
+
     .designalyticsCard {
         grid-row: 2 / 3;
         /* Set the "designalyticsCard" to be in the second row */
     }
-    
+
     .recallCard {
         grid-row: 2 / 3;
         /* Set the "recallCard" to be in the second row */
     }
 
     /* contact section */
-     
+
     .finalConnect p {
         font-size: 1.9rem;
     }
@@ -466,7 +472,7 @@ section.finalConnect {
     .discover p {
         font-size: 3.3rem;
     }
-    
+
     /* Case studies */
     section.uxCards {
         display: flex;
