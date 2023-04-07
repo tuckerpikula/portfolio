@@ -70,7 +70,7 @@ aside {
     right: 0;
     top: 0;
     height: 100vh;
-    background: var(--primary-color);
+    background: #202020;
     width: 40%;
     padding: 3em;
     text-align: right;
@@ -79,13 +79,13 @@ aside {
 }
 
 aside a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 2.6rem;
 }
 
 aside img {
     cursor: pointer;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     border-radius: .5em;
 }
 
@@ -94,7 +94,7 @@ aside ul {
 }
 
 aside li {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
 .toggle-menu {
@@ -175,7 +175,7 @@ h1 {
 }
 
 #canvas {
-    margin-top: 3em;
+    margin-top: 5em;
     height: 270px;
     width: 270px;
 }
@@ -227,11 +227,11 @@ section.uxCards {
     display: flex;
     flex-direction: column;
     gap: 7em;
-    padding: 2em;
+    padding: 1.5em 2em;
 }
 
 .eurekaTop {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .cardText {
@@ -253,7 +253,7 @@ section.uxCards {
     display: inline-block;
     border: 1px solid #F3F3F3;
 /* blackShadow */
-    box-shadow: 5px 5px 0px #181818;
+    box-shadow: 3px 3px 0px #181818;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -264,13 +264,14 @@ section.uxCards {
     justify-content: center;
     gap: .7em;
     background-color: var(--secondary-color);
-    padding: .9em 3em;
+    padding: .9em 4em;
     border-radius: 5px;
 }
 
 .cardCTA p {
     color: var(--primary-color);
     font-size: 1.8rem;
+    letter-spacing: 1px;
 }
 
 /* Coding projects */
@@ -313,7 +314,7 @@ section.uxCards {
     justify-content: space-between;
     font-size: 1.8rem;
     color: var(--secondary-color);
-    padding: 1em;
+    padding: .7em 1em;
 }
 
 .codingTitle {
@@ -365,7 +366,7 @@ section.finalConnect {
 
 
 /* Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
 
     .wrapper {
         margin: 2em 4em;
@@ -416,15 +417,25 @@ section.finalConnect {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 2em;
+        /* gap: 2em; */
     }
 
     .leftCol {
-        /* width: 55%; */
+        flex-basis: 50%;
+    }
+
+    .rightCol {
+        flex-basis: 40%;
+    }
+
+    #canvas {
+        margin-top: 5em;
+        height: 270px;
+        width: 270px;
     }
 
     .leftCol h1 {
-        font-size: 7.5rem;
+        font-size: 7rem;
         text-align: left;
     }
 
@@ -443,18 +454,26 @@ section.finalConnect {
         transform: translateX(7px);
     }
 
+    .subTitle {
+        text-align: left;
+    }
+
+    aside nav ul li a {
+        color: var(--primary-color);
+        font-size: 1.6rem;
+    }
 
     /* UX case studies */
 
     section.caseStudies {
-        margin-top: 3em;
-        /* font-size: 5rem; */
+        margin-top: 4em;
     }
 
     section.uxCards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        margin: 7em 1em;
     }
 
     .eurekaCard {
@@ -481,6 +500,9 @@ section.finalConnect {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
         margin-top: 5em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .portfolioCard {
@@ -521,18 +543,33 @@ section.finalConnect {
         font-size: 3.3rem;
     }
 
+    aside nav ul {
+        gap: 4em;
+    }
+
+    aside nav ul li a {
+        font-size: 1.8rem;
+    }
+
     /* Hero section */
 
     section.hero {
         margin-top: 13em;
     }
 
-    .leftCol h1 {
-        font-size: 12rem;
+    #canvas {
+        margin-top: 5em;
+        height: 270px;
+        width: 270px;
     }
 
-    .rightCol img {
-        height: 320px;
+    .subTitle {
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    .leftCol h1 {
+        font-size: 11rem;
     }
 
     .discover p {
@@ -540,9 +577,16 @@ section.finalConnect {
     }
 
     /* Case studies */
+
+    section.caseStudies {
+        margin-top: 7em;
+        font-size: 5rem;
+    }
+
     section.uxCards {
         display: flex;
         flex-direction: row;
+        margin: 12em 7em;
     }
 
     .eureka {
@@ -551,7 +595,17 @@ section.finalConnect {
         text-align: center;
     }
 
+    .card {
+        flex-basis: 33%;
+    }
+
     /* Coding projects */
+
+    section.codingHeader {
+        font-size: 5rem;
+        margin-top: 5em;
+    }
+
     aside.codingProjects p {
         font-size: 4.8rem;
     }
