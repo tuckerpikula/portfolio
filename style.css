@@ -333,6 +333,7 @@ section.uxCards {
 .sourceCode a {
     display: flex;
     gap: .1em;
+    align-items: center;
 }
 
 /* final message */
