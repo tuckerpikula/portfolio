@@ -40,8 +40,8 @@ window.addEventListener('load', () => {
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Left side
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Top side
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Bottom side
-        new THREE.MeshBasicMaterial({ color: 0xF3F3F3 }), // Front side
-        new THREE.MeshBasicMaterial({ color: 0xF3F3F3 }) // Back side
+        new THREE.MeshBasicMaterial({ color: 0x202020 }), // Front side
+        new THREE.MeshBasicMaterial({ color: 0x202020 }) // Back side
     ];
     const cube = new THREE.Mesh(geometry, materialArray);
     scene.add(cube);
@@ -51,17 +51,10 @@ window.addEventListener('load', () => {
     materialArray[4].needsUpdate = true;
 
 
-    // const canvasTextureRight = new THREE.CanvasTexture(createTextCanvas("To"));
-    // materialArray[0].map = canvasTextureRight;
-    // materialArray[0].needsUpdate = true;
-
     const canvasTextureBack = new THREE.CanvasTexture(createTextCanvas("Welcome"));
     materialArray[5].map = canvasTextureBack;
     materialArray[5].needsUpdate = true;
 
-    // const canvasTextureLeft = new THREE.CanvasTexture(createTextCanvas("Portfolio"));
-    // materialArray[1].map = canvasTextureLeft;
-    // materialArray[1].needsUpdate = true;
 
     function createTextCanvas(text) {
         const canvas = document.createElement('canvas');

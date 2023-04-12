@@ -430,9 +430,9 @@ section.finalConnect {
     }
 
     #canvas {
-        margin-top: 5em;
-        height: 270px;
-        width: 270px;
+        
+        height: 330px;
+        width: 330px;
     }
 
     .leftCol h1 {
@@ -559,9 +559,8 @@ section.finalConnect {
     }
 
     #canvas {
-        margin-top: 5em;
-        height: 270px;
-        width: 270px;
+        height: 450px;
+        width: 450px;
     }
 
     .subTitle {
