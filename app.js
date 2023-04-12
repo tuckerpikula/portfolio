@@ -40,8 +40,8 @@ window.addEventListener('load', () => {
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Left side
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Top side
         new THREE.MeshBasicMaterial({ color: 0x202020 }), // Bottom side
-        new THREE.MeshBasicMaterial({ color: 0x202020 }), // Front side
-        new THREE.MeshBasicMaterial({ color: 0x202020 }) // Back side
+        new THREE.MeshBasicMaterial({ color: 0xf3f3f3 }), // Front side
+        new THREE.MeshBasicMaterial({ color: 0xf3f3f3 }) // Back side
     ];
     const cube = new THREE.Mesh(geometry, materialArray);
     scene.add(cube);
