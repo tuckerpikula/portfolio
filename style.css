@@ -59,7 +59,6 @@ p {
 
 h1 {
     font-weight: normal;
-    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
     opacity: 1;
 }
 
