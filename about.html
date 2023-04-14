@@ -14,6 +14,9 @@
 
 <body>
     <div class="wrapper">
+       <!-- Wrapper for the whole site -->
+    <div class="wrapper">
+
         <!-- Logo -->
         <header>
 
@@ -28,7 +31,7 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="/pdfs/tuckerpikularesume.pdf" target="_blank">Resume</a>
+                                <a href="/pdfs/tuckerpikularesume.pdf" target="_blank">Res</>ume</a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/tuckerpikula/" target="_blank">LinkedIn</a>
@@ -52,9 +55,9 @@
         </header>
 
         <!-- Three stripes -->
-        <div class="stripes hide-mobile">
+        <!-- <div class="stripes hide-mobile">
             <img src="assets/stripes.svg" alt="three stripes">
-        </div>
+        </div> -->
 
         <!-- Top Section -->
         <div class="topSection">
@@ -115,6 +118,43 @@
     </div>
 
      <script type="module" src="about.js"></script>
-</body>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js"
+        integrity="sha512-zaTjCyJwbhpd8V594wpmUStv6Dy/SnmP7jR+XXnE49z2ayHkSirlNiP4XQc15Zgk+p5gXGe5ZUQYu4yRtShqkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script>
+
+let tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 } });
+  
+  if (!localStorage.getItem("animationPlayed")) {
+    tl.from('img', {
+        opacity: 0,
+        duration: 2
+    })
+        .from('.right-column', {
+            'clip-path': 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)',
+            y: -100,
+            opacity: 0,
+        }, "0")
+        .from('.bottomSection', {
+            opacity: 0
+        }, "-=1");
+    localStorage.setItem("animationPlayed", true);
+  } else {
+    gsap.set('.right-column', {
+      'clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
+      y: 0,
+      opacity: 1
+    });
+    gsap.set('.bottomSection', {
+      opacity: 1
+    });
+  }
+
+     </script>
+
+    </body>
 
 </html>

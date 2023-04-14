@@ -57,9 +57,9 @@
         </header>
 
         <!-- Three stripes -->
-        <div class="stripes hide-mobile">
+        <!-- <div class="stripes hide-mobile">
             <img src="assets/stripes.svg" alt="three stripes">
-        </div>
+        </div> -->
 
 
         <!-- Hero section -->
@@ -109,7 +109,9 @@
                 </div>
                 <div class="cardGap">
                     <div class="cardText">
-                        <p>Redefined the way Oregon citizens utilize the Unemployment Department through our efforts to revamp the user experience. This project provided a more intuitive and user-friendly platform, assisting individuals during challenging times</p>
+                        <p>Redefined the way Oregon citizens utilize the Unemployment Department through our efforts to
+                            revamp the user experience. This project provided a more intuitive and user-friendly
+                            platform, assisting individuals during challenging times</p>
                     </div>
                     <div class="bottomContainer">
                         <div class="cardCTA">
@@ -128,7 +130,9 @@
                 </div>
                 <div class="cardGap">
                     <div class="cardText">
-                        <p>This project provided essential food resources to individuals who lack reliable access due to barriers, with a mobile-first approach for busy, on-the-go users. Our site delivered crucial assistance with a focus on usability and accessibility</p>
+                        <p>This project provided essential food resources to individuals who lack reliable access due to
+                            barriers, with a mobile-first approach for busy, on-the-go users. Our site delivered crucial
+                            assistance with a focus on usability and accessibility</p>
                     </div>
                     <div class="bottomContainer">
                         <div class="cardCTA">
@@ -178,7 +182,8 @@
                 </div>
                 <div class="codingBody">
                     <p class="codingTitle">
-                        Responsive website using html, css, javascript, three.js to render the 3D object, all hosted on
+                        Responsive website using html, css, javascript, three.js to render the 3D object, and a
+                        javascript library called gsap to handle timeline animations hosted on
                         AWS
                     </p>
                     <div class="sourceCode">
@@ -285,6 +290,72 @@
     </div>
 
     <script type="module" src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js"
+        integrity="sha512-zaTjCyJwbhpd8V594wpmUStv6Dy/SnmP7jR+XXnE49z2ayHkSirlNiP4XQc15Zgk+p5gXGe5ZUQYu4yRtShqkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        let tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 } })
+
+        let hasVisited = localStorage.getItem("hasVisited");
+
+        if (!hasVisited) {
+            // set the value to true if it hasn't been set yet
+            localStorage.setItem("hasVisited", true);
+
+            // run the timeline animation
+            let tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 } });
+            tl.from('header', {
+                opacity: 0,
+                duration: 3
+            })
+                .from('.discover', {
+                    'clip-path': 'polygon(0% 100%, 0% 100%, 0% 0%, 0% 0%);',
+                    opacity: 0,
+                    duration: 3
+                }, "-=2.5")
+                .from('h1', {
+                    'clip-path': 'polygon(0% 100%, 0% 100%, 0% 0%, 0% 0%);',
+                    opacity: 0,
+                    x: -200,
+                    duration: 2
+                }, "-=1")
+                .from('.subTitle', {
+                    'clip-path': 'polygon(0% 100%, 0% 100%, 0% 0%, 0% 0%);',
+                    opacity: 0
+                }, "-=.5")
+                .from('.mainBtn', {
+                    'clip-path': 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);',
+                    opacity: 0,
+                    y: 200
+                }, "-=1")
+                .from('#canvas', {
+                    opacity: 0
+                }, "-=1")
+                .from('.caseStudies', {
+                    opacity: 0
+                }, "-=1")
+                .from('hr', {
+                    'clip-path': 'polygon(0% 100%, 0% 100%, 0% 0%, 0% 0%);',
+                    opacity: 0
+                }, "-=2")
+            tl.from('.card', {
+                y: -50,
+                opacity: 0,
+                stagger: 0.3,
+                //    scrollTrigger: {
+                //       trigger: '.card',
+                //       start: "center",
+                //       end: "bottom 80%",
+                //       toggleActions: "restart none none none",
+                //    }
+            }, "-=1");
+        }
+    </script>
 </body>
 
 </html>

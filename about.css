@@ -62,8 +62,44 @@ h1 {
 .wrapper {
     margin: 1.5em 3em;
 }
-
-/* Mobile Nav */
+.logo {
+    position: relative; /* add this to enable absolute positioning of the pseudo-element */
+  }
+  
+  .logo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-image: linear-gradient(to right, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 0) 100%);
+    transition: width 0.3s ease-in-out; /* add transition for the width property */
+  }
+  
+  .logo:hover::after {
+    width: 100%; /* set the width to 100% on hover to make it appear from left to right */
+  }
+  
+  nav a {
+      position: relative;
+      padding-bottom: .2em;
+  }
+  
+  nav a::after {
+      content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-image: linear-gradient(to right, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 0) 100%);
+    transition: width 0.3s ease-in-out; /* add transition for the width property */
+  }
+  
+  nav a:hover::after {
+    width: 100%; /* set the width to 100% on hover to make it appear from left to right */
+  }
 
 /* Mobile nav */
 aside {
@@ -126,6 +162,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
 }
 
 .topSection img {
