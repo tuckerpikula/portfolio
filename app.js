@@ -73,7 +73,7 @@ window.addEventListener('load', () => {
         renderer.render(scene, camera);
 
         // cube.rotation.x -= 0.001;
-        cube.rotation.y -= 0.003;
+        cube.rotation.y -= 0.0045;
         // cube.rotation.z -= 0.001;
 
     }
